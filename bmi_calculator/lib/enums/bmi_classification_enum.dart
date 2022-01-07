@@ -1,0 +1,7 @@
+enum BMIClassification {
+  UNDERWEIGHT,
+  NORMAL,
+  OVERWEIGHT,
+  OBESE,
+  EXTREMELY_OBESE
+}

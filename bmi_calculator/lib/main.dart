@@ -1,0 +1,22 @@
+import 'package:bmi_calculator/constants/constants.dart';
+import 'package:bmi_calculator/screens/input_page.dart';
+import 'package:flutter/material.dart';
+
+void main() => runApp(BMICalculator());
+
+class BMICalculator extends StatelessWidget {
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData.dark().copyWith(
+        primaryColor: CUSTOM_THEME_PRIMARY_COLOR,
+        scaffoldBackgroundColor: CUSTOM_THEME_SCAFFOLD_BACKGROUND_COLOR
+      ),
+      home: InputPage(),
+    );
+  }
+}
+
+
